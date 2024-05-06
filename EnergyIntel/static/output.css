@@ -1,0 +1,23 @@
+/* static/output.css */
+
+body {
+    background-image: url("/static/images/spot2.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    max-width: 500px;
+}
+
+h2, p, a {
+    color: white;
+    font-weight: bold;
+}

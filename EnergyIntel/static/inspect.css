@@ -1,0 +1,31 @@
+/* inspect.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("/static/images/spot2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.form-container {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+}
+
+.submit-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: white;
+    color: black;
+}
