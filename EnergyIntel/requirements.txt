@@ -1,5 +1,5 @@
 gunicorn
-﻿beautifulsoup4==4.12.3
+
 blinker==1.8.1
 certifi==2024.2.2
 charset-normalizer==3.3.2
