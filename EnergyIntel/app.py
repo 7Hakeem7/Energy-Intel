@@ -7,11 +7,17 @@ from sklearn.linear_model import LinearRegression
 from sklearn import metrics
 
 app = Flask(__name__)
+models_dir = os.path.join(os.path.dirname(__file__), 'models')
 
 # Load the trained model
-model_file = 'models/PCASSS_model.pkl'
+model_file = os.path.join(models_dir, 'PCASSS_model.pkl')
 with open(model_file, 'rb') as f:
     model = pickle.load(f)
+
+# Load the trained model
+#model_file = 'models/PCASSS_model.pkl'
+#with open(model_file, 'rb') as f:
+#    model = pickle.load(f)
 
 @app.route("/")
 def index():
