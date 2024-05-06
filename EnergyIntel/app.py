@@ -39,5 +39,5 @@ def inspect_data():
     else:
         return render_template('inspect.html')
 
-if __name__ == "__main__":
-    app.run(debug=True)
+#if __name__ == "__main__":
+    #app.run(debug=True)
